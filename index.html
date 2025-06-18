@@ -1,18 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
     <!-- Index = search.page
      Calls to OMDB API with the title searched for and displays search results
      
      Button to "add to watchlist" which saves that data to local storage
      
      -->
-    
-</body>
+
+    <header>
+      <img class="header-image" src="images/find-film-header.png">
+      <div class="overlay"></div>
+      <h1>Find your film</h1>
+      <a>My Watchlist</a>
+    </header>
+
+    <!-- Search Bar -->
+    <form id="search-api">
+      <img id="search-icon" src="images/search.png">
+      <input id="search" type="text" placeholder="Search for a movie" />
+      <button id="submit" type="submit">Submit</button>
+    </form>
+
+
+    <section id="search-list">
+
+    </section>
+  </body>
 </html>

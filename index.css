@@ -1,0 +1,101 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: red;
+}
+
+p2 {
+  font-size: 0.8rem;
+}
+
+.movie-add {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+body {
+  width: 550px;
+  height: 779px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 200px;
+}
+
+.header-image {
+    z-index: 1;
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    object-fit: contain;
+}
+
+.overlay {
+    background-color: black;
+}
+
+
+
+
+form {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#search-icon {
+    height: 120%;
+    width: auto;
+
+}
+
+input {
+      border-radius: 5%;
+}
+
+#submit {
+    border-radius: 5%;
+}
+
+.movie {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 1rem 1rem;
+}
+
+.movie-poster {
+  height: 80%;
+  width: auto;
+}
+
+.movie-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
