@@ -43,6 +43,7 @@ console.log(data);
       <p>${data.Plot}</p>
     </div>
 </article>
+<hr>
 `;
 
   searchList.innerHTML = found;

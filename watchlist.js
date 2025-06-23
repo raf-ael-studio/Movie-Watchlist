@@ -32,6 +32,7 @@ function renderMovieHTML(movie) {
       <p>${movie.plot}</p>
     </div>
 </article>
+<hr>
 `;
 }
 
@@ -49,10 +50,8 @@ function renderWatchlist(watchlist) {
   });
 }
 
-const saved = JSON.parse(localStorage.getItem('watchlist')) || [];
+const saved = JSON.parse(localStorage.getItem("watchlist")) || [];
 renderWatchlist(saved);
-
-
 
 // watchlistSection.innerHTML = parsedWatchlist.map(renderMovieHTML).join("");
 
